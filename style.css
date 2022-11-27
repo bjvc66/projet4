@@ -10,11 +10,11 @@ body {
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none!important;
+   /* outline: none!important;*/
 }
 
 a:hover {
-    text-decoration: none;
+   /* text-decoration: none;*/
     cursor: pointer;
 }
 p.text-center{
@@ -386,7 +386,7 @@ form{
 }
 
 .nav > li > .dropdown a {
-    background: none!important;
+  /*  background: none!important;*/
     display: block;
     padding: 14px 15px;
 }
@@ -443,7 +443,7 @@ nav .caret {
 }
 
 button {
-    outline: none!important;
+   /* outline: none!important;*/
     
 }
 
@@ -490,7 +490,7 @@ button {
 
 .form-control {
     
-    box-shadow: none;
+   /* box-shadow: none;*/
 
 }
 .form-control{
@@ -547,8 +547,8 @@ a[data-lightbox]:hover::before {
 
 a[data-lightbox]:hover img {
     opacity: 0.6;
-    -webkit-animation-fill-mode: none;
-    animation-fill-mode: none;
+   /* -webkit-animation-fill-mode: none;
+    animation-fill-mode: none;*/
 }
 
 #lightbox-modal {
@@ -585,7 +585,7 @@ a[data-lightbox]:hover img {
     right: 20px;
     z-index: 20;
     background: rgba(0, 0, 0, .5);
-    border: none;
+   /* border: none;*/
     line-height: 30px;
     padding: 0 9px 5px;
     opacity: 0.3;
@@ -627,7 +627,7 @@ a[data-lightbox]:hover img {
 .snapshot-lb .lightbox-caption {
     padding: 0;
     color: rgba(0, 0, 0, .5);
-    background: none;
+   /* background: none;*/
 }
 
 h1,
@@ -916,12 +916,12 @@ h4 {
     .navbar .nav {
         padding-top: 0;
         border-top: 1px solid rgba(0, 0, 0, .2);
-        float: none!important;
+      /*  float: none!important;*/
     }
     
     .site-navigation {
         position: inherit;
-        transform: none;
+      /* transform: none;*/
         
         
     }
@@ -937,7 +937,7 @@ h4 {
         background: rgba(0, 0, 0, .08);
     }
     .dropdown .dropdown a .caret {
-        float: none;
+       /* float: none;*/
         margin: 5px 0 0 10px!important;
         border: 4px solid black;
         border-bottom-color: transparent;
@@ -960,15 +960,15 @@ h4 {
     .navbar-collapse {
         padding: 0;
         overflow-x: hidden;
-        -webkit-box-shadow: none;
-        box-shadow: none;
+      /*  -webkit-box-shadow: none;
+        box-shadow: none;*/
     }
     .navbar-brand img {
         max-height: 40px;
         width: auto;
     }
     .nav-invert .navbar-header {
-        float: none;
+     /*   float: none;*/
         width: 100%;
     }
     .nav-invert .navbar-toggle {
@@ -987,7 +987,7 @@ h4 {
         padding: 0 10px;
     }
     .btn-dwn {
-        display: none;
+      /*  display: none;*/
     }
     .voffset {
         margin-top: 5px;
@@ -1045,7 +1045,7 @@ h4 {
     .nav-center .navbar-header,
     .nav-center .navbar-brand,
     .nav-center .nav > li {
-        float: none;
+       /* float: none;*/
         display: inline-block;
     }
     .nav-center .site-navigation {
@@ -1056,7 +1056,7 @@ h4 {
         margin-top: 20px;
     }
     .nav-center.mini-nav .navbar-toggle {
-        float: none;
+      /* float: none;*/
         margin: 10px auto 0;
     }
 }
